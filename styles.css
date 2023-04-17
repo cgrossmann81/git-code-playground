@@ -1,0 +1,71 @@
+body {
+	margin: 20px;
+	display: flex; /* added to make the items display side by side */
+}
+
+.menu-bar-1 {
+	width: 33%;
+	background-color: blue;
+	overflow: auto;
+	border-radius: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 20px;
+	display: flex; /* added to display items in one line */
+}
+
+.menu-bar-1 a {
+	width: 20%; /* increased the width slightly to make it fit */
+	text-align: center;
+	padding: 10px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	flex: 1; /* added to make the items share the available space */
+	box-sizing: border-box; /* added to include the border and padding in the width */
+}
+
+.menu-bar-1 a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+.active {
+	background-color: red;
+	text-decoration: none;
+}
+
+.menu-bar-2 {
+	width: 33%;
+	background-color: blue;
+	overflow: auto;
+	border-radius: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.menu-bar-2 a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  flex: 1; /* added to make the items share the available space */
+	box-sizing: border-box; /* added to include the border and padding in the width */
+}
+
+.menu-bar-2 a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  float: right;
+}
