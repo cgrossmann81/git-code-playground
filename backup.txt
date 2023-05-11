@@ -1,9 +1,40 @@
+This is the backup text for the header
+
+Index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Legacy Live</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div class="menu-item-25">
+		<a href="#" class="active">Join</a>
+		<a href="#">Services</a>
+		<a href="#">Legacy</a>
+	</div>
+
+	<div class="menu-item-361">
+		<a href="#">Get Started</a>
+	</div>
+
+    </div>
+        <img src="LogoNew5.png" class="logo">
+    </div>
+
+</body>
+</html>
+
+Backup configs for the styles.css file
+
 body {
 	margin: 20px;
 	display: flex; /* added to make the items display side by side */
 }
 
-.menu-item-25, .login {
+.menu-item-25 {
 	width: 33%;
 	background-color: blue;
 	overflow: auto;
